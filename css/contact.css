@@ -1,0 +1,47 @@
+body {
+  background-color: #f0f0f0;
+}
+
+.contact {
+  position: relative;
+}
+
+.contact .contact-form {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: -170px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.contact .contact-form input[type=text], .contact .contact-form input[type=email] {
+  width: 100%;
+  border: 1px solid #8a8787;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.contact .contact-form input[type=submit] {
+  width: 100%;
+  padding: 10px;
+  background-color: #045089;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact .img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.contact .contact-container {
+  position: absolute;
+  top: 50%;
+  left: 7%;
+}
+/*# sourceMappingURL=contact.css.map */
