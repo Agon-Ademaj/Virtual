@@ -1,0 +1,120 @@
+@media only screen and (min-width: 720px) {
+  .nav-bar {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.register {
+  position: relative;
+}
+
+.register h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.register img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 70vh;
+  width: 100%;
+  background: #0142f2;
+  background: linear-gradient(232deg, #0142f2 0%, #9201f2 80%, #aa19f2 100%, #012ef2 100%);
+}
+
+.register .register-header {
+  position: absolute;
+  top: 50%;
+  left: 7%;
+}
+
+.register__container {
+  background-color: #f4f4f4;
+}
+
+.register__container .register__body {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 4em 0;
+}
+
+.register__container .register__body .register__contact .form__container {
+  -webkit-box-shadow: 20px 20px 50px 15px grey;
+          box-shadow: 20px 20px 50px 15px grey;
+}
+
+.register__container .register__body .register__contact .contact {
+  margin-top: 3em;
+}
+
+.register__container .register__body .register__contact .contact h2 {
+  font-size: 1.3rem;
+}
+
+.register__container .register__body .register__form {
+  margin: 3em 0;
+  background-color: #fff;
+  padding: 2em;
+}
+
+.register__container .register__body .register__form h2 {
+  margin: 1em 0;
+}
+
+.register__container .register__body .register__form input[type=text],
+.register__container .register__body .register__form input[type=password],
+.register__container .register__body .register__form input[type=email],
+.register__container .register__body .register__form select[type=select],
+.register__container .register__body .register__form input[type=submit] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: solid 1px #bdbdbd;
+  border-radius: 5px;
+}
+
+.register__container .register__body .register__form input[type=submit] {
+  background-color: #1B1B1B;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.register__container .register__body .register__form input[type=submit]:hover {
+  background-color: #3E3E3E;
+}
+
+@media only screen and (min-width: 720px) {
+  .register__body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+  }
+  .register__body .contact {
+    margin-top: 7em !important;
+  }
+  .form__container {
+    width: 400px;
+  }
+  .register__contact {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 820px) {
+  .register__body {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=register.css.map */

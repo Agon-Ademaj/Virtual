@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+a:hover {
+  background-color: #3d4b68;
+  color: white;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+  margin-top: 10vh;
+  position: fixed;
+  height: 100%;
+  overflow: hidden;
+}
+
+.sidebar a {
+  display: block;
+  color: #fff;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a .active {
+  background-color: #555;
+  color: #fff;
+}
+
+.content,
+.form-container,
+.showproducts {
+  margin-left: 150px;
+  padding: 1px 16px;
+  height: auto;
+}
+
+.form-container {
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  -webkit-transform: translateX(-50%, -50%);
+  transform: translateX(-50%, -50%);
+  background-color: #f4f4f4;
+  max-width: 50%;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.form-container .insideform {
+  margin-top: 2em;
+}
+
+.form-container input[type=text] {
+  width: 100%;
+  border: 1px solid #183953;
+  padding: 8px 15px;
+}
+
+.form-container input[type=submit] {
+  background-color: #183953;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.form-container input[type=file] {
+  border: 1px solid #ccc;
+  width: 100%;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: #DDD;
+}
+
+.form-container input[type=submit]:hover {
+  background-color: #3a6383;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+/*# sourceMappingURL=adminstyle.css.map */

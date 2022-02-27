@@ -1,0 +1,68 @@
+@media only screen and (min-width: 720px) {
+  .nav-bar {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+.leadership {
+  position: relative;
+}
+
+.leadership h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.leadership img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 70vh;
+  width: 100%;
+  background: #0142f2;
+  background: linear-gradient(232deg, #0142f2 0%, #9201f2 80%, #aa19f2 100%, #012ef2 100%);
+}
+
+.leadership .leadership-header {
+  position: absolute;
+  top: 50%;
+  left: 7%;
+}
+
+.leadership_container {
+  max-width: 90%;
+  margin: 5em auto;
+}
+
+.leadership_container .employees {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.leadership_container .employees .emp-container {
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+.leadership_container .employees .emp-container img {
+  border-radius: 10px 10px 0 0;
+}
+
+.leadership_container .employees .emp-container .leadership-container {
+  padding: 1em;
+}
+/*# sourceMappingURL=employees.css.map */

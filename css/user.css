@@ -1,0 +1,99 @@
+@media only screen and (min-width: 720px) {
+  .nav-bar {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.products {
+  position: relative;
+  background-color: #333;
+}
+
+.products h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.products h2 {
+  color: #fff;
+}
+
+.products img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.products .products-header {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.products .products-header .btntest {
+  padding: 10px 25px;
+  border: solid 1px #fff;
+  position: relative;
+  top: 20px;
+  border-radius: 50px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.products .products-header .btntest:hover {
+  background-color: #fff;
+  color: #045089;
+  font-weight: bold;
+}
+
+.prod {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: 3em auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.prod .prod-container {
+  margin-top: 2.5em;
+}
+
+.prod .prod-container h3 {
+  color: #045089;
+  font-size: 1rem;
+}
+
+.prod .prod-container h5 {
+  font-size: 1.4rem;
+  margin: 1em 0;
+  color: #045089;
+}
+
+.prod .prod-container input[type=submit] {
+  background-color: #045089;
+  border: none;
+  padding: 10px 25px;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.prod .prod-container input[type=submit]:hover {
+  -webkit-transition: .2s;
+  transition: .2s;
+  background-color: #333;
+  color: #fff;
+}
+/*# sourceMappingURL=user.css.map */
